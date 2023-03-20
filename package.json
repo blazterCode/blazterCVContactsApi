@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "cp:public": "cp -r public dist/",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },

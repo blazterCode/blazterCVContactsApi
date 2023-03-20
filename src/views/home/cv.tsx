@@ -10,9 +10,7 @@ import Firebase from '../../img/firebase.svg';
 import Git from '../../img/git.svg';
 import Heroku from '../../img/heroku.svg';
 import Html from '../../img/html5.svg';
-import Instagram from '../../img/instagram.svg';
 import Javascript from '../../img/javascript.svg';
-import Linkedin from '../../img/linked.svg';
 import MariaDB from '../../img/mariaDB.svg';
 import Mongo from '../../img/mongodb.svg';
 import Mysql from '../../img/mysql.svg';
@@ -152,7 +150,7 @@ const Cv: React.FC = () => {
                 {' '}
                 <Icon nameClass='fa fas fa-linkedin' />
                 <a
-                  href='www.linkedin.com/in/alejandrohinestroza'
+                  href='https://www.linkedin.com/in/alejandrohinestroza'
                   target='_bank'
                   className={`icon icon-${theme}`}
                 >
