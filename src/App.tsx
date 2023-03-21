@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ToastContainer } from 'react-toastify';
 
@@ -15,7 +15,8 @@ import N404 from './views/home/N404';
 const App: React.FC = () => {
   return (
     <div className={`App`}>
-      <BrowserRouter>
+      {/**  <BrowserRouter> */}
+      <HashRouter>
         <ThemeContextProvider>
           <ButtonTheme />
           <Routes>
@@ -29,7 +30,8 @@ const App: React.FC = () => {
           </Routes>
         </ThemeContextProvider>
         <ToastContainer theme={'colored'} />
-      </BrowserRouter>
+      </HashRouter>
+      {/**</BrowserRouter>*/}
     </div>
   );
 };

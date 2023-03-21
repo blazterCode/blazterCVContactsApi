@@ -13,8 +13,8 @@ const Portfolio: React.FC = () => {
 
   const title = 'PROYECTOS Y COLABORACIONES';
   const body = (
-    <div>
-      <div className='main-projects'>
+    <div className='main-projects'>
+      <div>
         <img src={img} alt='foto' className='imgPagInConstruction' />
         <p>
           Esta parte del sitio se encuentra en remodelacion, vuelva al inicio.

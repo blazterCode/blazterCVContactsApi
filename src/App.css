@@ -761,8 +761,29 @@ select:focus {
 }
 
 
-.main-projects {
+
+
+
+
+
+
+
+
+
+
+
+
+.main-projects div {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
+}
+
+
+
+@media (max-width: 930px) {
+  .main-projects div {
+    flex-direction: column;
+  }
+
 }

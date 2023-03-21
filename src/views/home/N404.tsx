@@ -14,10 +14,12 @@ const Login: React.FC = () => {
   const title = 'PAGINA NO ENCONTRADA';
   const body = (
     <div className='main-projects'>
-      <img src={img} alt='foto' className='imgPagInConstruction' />
-      <p>Nada por aqui : (</p>
-      <div className={`button-forms button-forms-${theme}`}>
-        <NavigationButton key={'1'} rute={'/'} name={'HOGAR'} />
+      <div>
+        <img src={img} alt='foto' className='imgPagInConstruction' />
+        <p>Nada por aqui : (</p>
+        <div className={`button-forms button-forms-${theme}`}>
+          <NavigationButton key={'1'} rute={'/'} name={'HOGAR'} />
+        </div>
       </div>
     </div>
   );
