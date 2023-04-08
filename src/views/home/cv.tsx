@@ -22,7 +22,7 @@ import Redux from '../../img/redux.svg';
 import Tailwind from '../../img/tailwind.svg';
 import Express from '../../img/express-original-wordmark.svg';
 import Picture from '../../components/pictures/Picture';
-import img from '../../img/redondo a usar en pagina.png';
+import img from '../../img/redondo.png';
 
 const Cv: React.FC = () => {
   const { theme } = useContext(ThemeContext);

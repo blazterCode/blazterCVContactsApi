@@ -446,8 +446,8 @@ fieldset div {
 }
 
 .cv-right img {
-  width: 65%;
-  height: 400px;
+  width: 270px;
+  height: 270px;
   padding: 0;
   margin-top: 50px;
 }
@@ -610,8 +610,9 @@ p {
       "cv-title cv-title" auto "cv-left cv-right" auto "cv-social-media cv-social-media" auto/auto auto;
   }
 
-
 }
+
+
 
 /** */
 
@@ -627,9 +628,6 @@ p {
     padding: 0;
     margin-top: -25px;
   }
-
-
-
 
 
   .list {
@@ -675,6 +673,11 @@ p {
   .container-cv {
     grid:
       "cv-title" auto " cv-right" auto "cv-left" auto "cv-social-media" auto/auto;
+  }
+
+  .cv-right img {
+    width: 200px;
+    height: 200px;
   }
 }
 
