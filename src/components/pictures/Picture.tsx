@@ -1,9 +1,14 @@
 type PropsType = {
   clase: string;
+  recurso: string;
 };
-const Picture = ({ clase }: PropsType) => {
+const Picture = ({ clase, recurso }: PropsType) => {
   return (
-    <img src='https://i.imgur.com/vIlFc3E.jpg' alt='foto' className={clase} />
+    <img
+      src={recurso === 'Default' ? 'https://i.imgur.com/vIlFc3E.jpg' : recurso}
+      alt='foto'
+      className={clase}
+    />
   );
 };
 

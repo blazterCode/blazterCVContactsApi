@@ -21,6 +21,8 @@ import ReactMO from '../../img/reactMo.svg';
 import Redux from '../../img/redux.svg';
 import Tailwind from '../../img/tailwind.svg';
 import Express from '../../img/express-original-wordmark.svg';
+import Picture from '../../components/pictures/Picture';
+import img from '../../img/redondo a usar en pagina.png';
 
 const Cv: React.FC = () => {
   const { theme } = useContext(ThemeContext);
@@ -104,7 +106,7 @@ const Cv: React.FC = () => {
         <div className='cv-right'>
           <div className='me'>
             {' '}
-            <img src='https://i.imgur.com/vIlFc3E.jpg' alt='foto' />
+            <Picture clase='' recurso={img} />
           </div>
           <div className='cv-contact'>
             {' '}

@@ -24,7 +24,7 @@ function MainLayout({ titleLayout, body, ...props }: any) {
         <div className={`left left-${theme}`}>
           <div className='container-left-picture-mobile'>
             <div className='div-pictureSmall'>
-              <Picture clase='pictureSmall' />
+              <Picture clase='pictureSmall' recurso='Default' />
             </div>
             <h1 className='titles'>{titleLayout}</h1>
             <div className='button-under-title'>
@@ -63,7 +63,7 @@ function MainLayout({ titleLayout, body, ...props }: any) {
           </div>
         </div>{' '}
         <div className='right'>
-          <Picture clase='pictureLarge' />
+          <Picture clase='pictureLarge' recurso='Default' />
         </div>
       </div>
     </div>

@@ -37,7 +37,7 @@
 
 
 .main {
-  background: url("./img/polygon.svg");
+  background: url("./img/polygon.svg")no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -710,8 +710,7 @@ p {
 }
 
 .main-light {
-
-  background-image: url("./img/blob-scene-haikei.svg");
+  background: url('./img/blob-scene-haikei.svg')no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
