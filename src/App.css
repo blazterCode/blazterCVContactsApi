@@ -212,6 +212,13 @@
   padding-top: 7px;
 }
 
+
+.button:active {
+  box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+  /* Moving button 4px to y-axis */
+}
+
 .button:hover {
   background: var(--buttons-light);
 }
@@ -348,6 +355,13 @@ select:focus {
 
 .button-forms button:hover {
   background: var(--buttons-light)
+}
+
+
+.button-forms button:active {
+  box-shadow: box-shadow 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+  /* Moving button 4px to y-axis */
 }
 
 fieldset {
